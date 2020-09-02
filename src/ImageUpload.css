@@ -1,0 +1,48 @@
+.imageUpload {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.imageUpload > h3 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 10px;
+}
+
+.imageUpload__progress {
+  padding: 10px !important;
+  margin-bottom: 10px;
+}
+
+.imageUpload__progress {
+  width: 100%;
+}
+
+.imageUpload__input {
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.imageUpload__file {
+  /* height: 20px; */
+  width: fit-content;
+  margin-top: 10px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.imageUpload__button {
+  /* background-color:  !important; */
+  width: fit-content;
+  margin-top: 10px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
